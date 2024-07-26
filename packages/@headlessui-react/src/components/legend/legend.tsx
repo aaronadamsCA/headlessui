@@ -5,7 +5,7 @@ import type { Props } from '../../types'
 import { forwardRefWithAs, type HasDisplayName } from '../../utils/render'
 import { Label } from '../label/label'
 
-let DEFAULT_LEGEND_TAG = Label
+let DEFAULT_LEGEND_TAG = 'div' as const
 
 type LegendRenderPropArg = {}
 type LegendPropsWeControl = never
